@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Crater Application Testcases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Crater Application Testcases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 11:34:13 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>365 seconds (365893 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='crater.qa.testcases.CutomerTest.creatingnewCustomer()'><b>creatingnewCustomer</b><br>Test class: crater.qa.testcases.CutomerTest<br>Test method: To check whethet the user is able to create new Customer<br>Parameters: TestNameSam, TestNameSam@test.com, Sam, Austria, teststate, testcity, Saint st</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.CutomerTest@4445629</td></tr>
+<tr>
+<td title='crater.qa.testcases.CutomerTest.creatingnewCustomer()'><b>creatingnewCustomer</b><br>Test class: crater.qa.testcases.CutomerTest<br>Test method: To check whethet the user is able to create new Customer<br>Parameters: TestNameFelci, TestNameFelci@test.com, Felci, Japan, teststate, testcity, Saint st</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.CutomerTest@4445629</td></tr>
+<tr>
+<td title='crater.qa.testcases.CutomerTest.creatingnewCustomer()'><b>creatingnewCustomer</b><br>Test class: crater.qa.testcases.CutomerTest<br>Test method: To check whethet the user is able to create new Customer<br>Parameters: TestNameDanny, TestNameDanny@test.com, Danny, China, teststate, testcity, Saint st</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.CutomerTest@4445629</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.customerDueAmountvalidation()'><b>customerDueAmountvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to view the invoice due Amount for the new Customer in Customes page<br>Parameters: TestNameSam, Basement Renovation, 25000.0</td>
+<td></td>
+<td>4</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.customerDueAmountvalidation()'><b>customerDueAmountvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to view the invoice due Amount for the new Customer in Customes page<br>Parameters: TestNameFelci, Basement Renovation, 150000.0</td>
+<td></td>
+<td>7</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.customerDueAmountvalidation()'><b>customerDueAmountvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to view the invoice due Amount for the new Customer in Customes page<br>Parameters: TestNameDanny, Basement Renovation, 5000.0</td>
+<td></td>
+<td>4</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoiceSearchvalidation()'><b>newInvoiceSearchvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to Search the newly added invoice for the new Customer<br>Parameters: TestNameSam, Basement Renovation, 25000.0</td>
+<td></td>
+<td>4</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoiceSearchvalidation()'><b>newInvoiceSearchvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to Search the newly added invoice for the new Customer<br>Parameters: TestNameFelci, Basement Renovation, 150000.0</td>
+<td></td>
+<td>5</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoiceSearchvalidation()'><b>newInvoiceSearchvalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to Search the newly added invoice for the new Customer<br>Parameters: TestNameDanny, Basement Renovation, 5000.0</td>
+<td></td>
+<td>4</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoicevalidation()'><b>newInvoicevalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to add invoice for the new Customer<br>Parameters: TestNameSam, Basement Renovation, 25000.0</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoicevalidation()'><b>newInvoicevalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to add invoice for the new Customer<br>Parameters: TestNameFelci, Basement Renovation, 150000.0</td>
+<td></td>
+<td>10</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.InvoiceTest.newInvoicevalidation()'><b>newInvoicevalidation</b><br>Test class: crater.qa.testcases.InvoiceTest<br>Test method: To check whether the user is able to add invoice for the new Customer<br>Parameters: TestNameDanny, Basement Renovation, 5000.0</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.InvoiceTest@45b9a632</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.newPaymentvalidation()'><b>newPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able add the payment for the new Customer with due amount<br>Parameters: TestNameSam, 2000.0</td>
+<td></td>
+<td>9</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.newPaymentvalidation()'><b>newPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able add the payment for the new Customer with due amount<br>Parameters: TestNameFelci, 1500.0</td>
+<td></td>
+<td>7</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.newPaymentvalidation()'><b>newPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able add the payment for the new Customer with due amount<br>Parameters: TestNameDanny, 500.0</td>
+<td></td>
+<td>6</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.searchPaymentvalidation()'><b>searchPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able to view the added payment details the new Customer<br>Parameters: TestNameSam, 2000.0</td>
+<td></td>
+<td>5</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.searchPaymentvalidation()'><b>searchPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able to view the added payment details the new Customer<br>Parameters: TestNameFelci, 1500.0</td>
+<td></td>
+<td>5</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+<tr>
+<td title='crater.qa.testcases.PaymentTest.searchPaymentvalidation()'><b>searchPaymentvalidation</b><br>Test class: crater.qa.testcases.PaymentTest<br>Test method: To check whethet the user is able to view the added payment details the new Customer<br>Parameters: TestNameDanny, 500.0</td>
+<td></td>
+<td>6</td>
+<td>crater.qa.testcases.PaymentTest@25d250c6</td></tr>
+</table><p>
+</body>
+</html>
